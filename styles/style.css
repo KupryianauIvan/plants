@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --light-g-bg: #edf2ec;
+  --white-bg-card: #ffffff;
+
+  --l-grey-text: #636060;
+  --h-grey-text: #717171;
+  --d-green-text: #499A18;
+  --deep-black-text: #000000;
+  --orange-text: #E06733;
+}
+html {
+ scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  background: var(--light-g-bg);
+}
