@@ -47,3 +47,25 @@ body {
   margin-left: 5px;
   font-size: 1.6rem;
 }
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.content__hero {
+  font-size: 1.6rem;
+}
+.content__hero img,
+.header img {
+  border-radius: 8px;
+}
+.content__desc {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+}
+.content__desc > p {
+  font-size: 1.6rem;
+}
