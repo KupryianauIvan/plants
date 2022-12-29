@@ -26,3 +26,9 @@ body {
   width: 100%;
   background: var(--light-g-bg);
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
