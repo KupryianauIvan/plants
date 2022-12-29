@@ -15,6 +15,7 @@
 }
 html {
  scroll-behavior: smooth;
+ font-size: 10px;
 }
 body {
   display: flex;
@@ -25,4 +26,24 @@ body {
   max-width: 1440px;
   width: 100%;
   background: var(--light-g-bg);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.header__menu {
+  padding: 0 20px; 
+}
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.header__list > li {
+  list-style: none;
+  margin-left: 5px;
+  font-size: 1.6rem;
 }
