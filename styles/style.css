@@ -104,6 +104,10 @@ body {
   align-items: center;
   flex-direction: column;
   margin-bottom: 10px;
+  padding: 5px;
+  border: 2px solid #E06733;
+  border-radius: 8px;
+  background-color: #F4f4f4;
 }
 .gallery_card > p {
   max-width: 150px;
